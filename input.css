@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.body {
+  color: rgba(26, 35, 35, 0.804);
+}
+.BGD {
+  background-color: rgba(255, 255, 255, 0.239);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+}
+html {
+  scroll-behavior: smooth;
+}
